@@ -1,0 +1,375 @@
+.row, .col, .container-fluid{
+    
+  
+}
+
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    
+}
+ 
+
+body {
+     overflow-x: hidden;
+ }
+
+
+
+
+.navigation {
+height: 64px;
+
+}
+
+.navgation-element:hover{
+background-color: chartreuse;
+}
+
+
+
+
+.part-1 {
+    
+    align-items: center;
+    
+    
+}
+
+.part1total {
+align-items: center;
+
+}
+
+.part1banner{
+
+    margin: 32px 24px;
+    width:55%;
+}
+
+.part1contentbox {
+    margin: auto 24px;
+    align-items: centers;
+    width: 35%;
+
+}
+
+.part2 {
+    display: block;
+
+    align-items: center;
+}
+
+
+.part2infomain {
+
+    margin: 32px 24px 32px 0px;
+    
+}
+
+.part2mainimg {
+     width: 55%;
+     margin-left: 24px;
+}
+
+.part2cards {
+    width: 40%;
+    margin: 0px 0px 0px 24px;
+    align-items: center;
+    height:20%;
+    
+}
+
+.part2individualcrd{
+    align-items: center;
+    
+
+}
+
+
+
+.p2_card_inside {
+    
+    height: fit-content;
+}
+
+.part2-readmore:hover{
+
+    color: darkblue;
+}
+
+
+
+
+    
+    
+    .part3-cards
+    {
+   
+    width: 100%;
+    padding: 0px 72px;
+    margin-bottom: 32px;
+    
+    }
+
+    .part3-card-height {
+        height: 100%;
+    }
+
+    .part3-card-height:hover{
+
+        background-color:rgba(139, 69, 19, 0.37);
+    }
+    
+    #part3-heading {
+       
+        width: fit-content;
+        height: fit-content;
+        margin: 32px auto;
+        
+    
+    }
+
+    
+    
+    #part4-heading {
+        text-align: center;
+        margin: 32px auto;
+    }
+
+    .part4-video{
+
+       
+        margin: 0px 24px;
+        
+        width: 759px;
+        
+        
+    }
+
+    footer {
+
+        margin-top: 16px;
+        height: 64px;
+        
+    }
+
+    footer p {
+        color: grey;
+        margin-left: 24px;
+    }
+
+  
+
+    footer ul {
+
+        position: relative;
+        right: 0px;
+        display: flex;
+        padding: 0px;
+        margin: 0px;
+    }
+
+    footer ul li {
+        margin-right: 5px;
+        list-style: none;
+   
+        
+    }
+
+    footer ul li a {
+        text-decoration: none;
+        color: grey;
+    }
+
+    .navigation-mobile, .part-1-mobile,.part2-mobile, .part3-mobile, .part4-mobile, .copyright-mobile {
+        display: none;
+    }
+
+
+
+    @media only screen and  (max-width: 960px) and (min-width: 800px)
+    {    
+        
+        * {
+            padding: 0px;
+            margin: 0px;   
+            box-sizing: border-box;
+
+           }
+       
+       
+        .navigation,.part-1 {
+
+        display: none;
+       }
+
+
+       .navigation-mobile{
+           display: block;
+          height: 64px;
+          width: 100%;
+          text-align: center;
+       }
+       
+       .menulogo {
+           height: 60%;
+           width: 24%;
+           margin-top: 1.5%;
+       }
+
+       .menulogo:hover{
+        background-color: chartreuse;
+    }
+
+       .part-1-mobile {
+         display: block;
+         width: 100%;
+         padding-top: 0px;
+         padding-left: 0px;
+         padding-right: 0px;
+         padding-bottom: 32px;
+         
+       }
+
+       .mobile-banner{
+           width: 100%;
+           
+           height: 100%;
+       }
+       
+       
+       .p1mobcontent{
+
+        margin: 32px 16px;
+
+       }
+
+       .part2-mobile {
+
+        display: none;
+       }
+           
+
+
+
+
+
+    }
+
+
+
+@media only screen and (max-width: 800px) {
+
+
+    .navigation,.part-1, .part2, .part3, .part4, .copyright {
+    display: none;
+}
+
+
+.navigation,.part-1 {
+
+    display: none;
+   }
+
+
+   .navigation-mobile{
+       display: block;
+      height: 64px;
+      width: 100%;
+      text-align: center;
+   }
+   
+   .menulogo {
+       height: 60%;
+       width: 20%;
+       margin-top: 1.5%;
+       margin-right: 3%;
+   }
+
+
+   .menulogo:hover{
+       background-color: chartreuse;
+   }
+
+
+   .part-1-mobile {
+     display: block;
+     width: 100%;
+     padding-top: 0px;
+     padding-left: 0px;
+     padding-right: 0px;
+     padding-bottom: 32px;
+     margin-bottom: 0px;
+     
+   }
+
+   .mobile-banner{
+       width: 100%;
+       
+       height: 100%;
+   }
+   
+   
+   .p1mobcontent{
+
+    margin: 32px 16px;
+
+   }
+
+   .part2-mobile {
+       display: block;
+       margin-bottom: 32px;
+   }
+    
+   .part2-mobile-card1{
+     margin-bottom: 64px;
+
+   }
+
+
+   .part2-mobile-card1-image{
+    width: 100%;
+    padding: 16px;
+   }
+
+   .part2-mobile-card1-content {
+       margin: 0px 16px;
+       padding: 0px;
+   }
+
+   .part2-mobile-readmore:hover{
+       color: darkblue;
+   }
+
+   .part3-mobile {
+       display: block;
+       border: grey 1px solid;
+       padding-bottom: 32px;
+   }
+
+   .part3-mob-subhead-hover:hover{
+
+    background-color:rgba(139, 69, 19, 0.37);
+   
+   }
+
+   .part4-mobile {
+       display: block;
+   }
+
+   .copyright-mobile{
+       display: block;
+       margin: 16px;
+   }
+
+
+}
+
+
+
+
+
+    
